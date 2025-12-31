@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniyal Javadia | Full Stack Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark-theme">
+    <div class="theme-toggle">
+        <button class="theme-btn" id="themeToggle"><i class="fas fa-sun"></i></button>
+    </div>
+
+    <header>
+        <div class="header-bg"></div>
+        <div class="container">
+            <div class="logo-container">
+                <div class="logo-icon">DJ</div>
+                <div class="logo-text">Daniyal Javadia</div>
+            </div>
+            <p class="tagline">Full Stack Developer | Building modern web & mobile applications with passion and
+                precision.</p>
+            <div class="stats-container">
+                <div class="stat-card glass">
+                    <div class="stat-number">16+</div>
+                    <div class="stat-label">Projects</div>
+                </div>
+                <div class="stat-card glass">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Technologies</div>
+                </div>
+                <div class="stat-card glass">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Responsive</div>
+                </div>
+                <div class="stat-card glass">
+                    <div class="stat-number">Live</div>
+                    <div class="stat-label">Demos & Videos</div>
+                </div>
+            </div>
+            <div class="nav-container">
+                <a href="#projects" class="nav-pill active"><i class="fas fa-rocket"></i> Projects</a>
+                <a href="#contact" class="nav-pill"><i class="fas fa-envelope"></i> Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="projects">
+            <div class="section-title">
+                <h2>Featured Projects</h2>
+                <div class="filter-chips">
+                    <div class="chip active" data-filter="all">All</div>
+                    <div class="chip" data-filter="web"><i class="fas fa-globe"></i> Web</div>
+                    <div class="chip" data-filter="fullstack"><i class="fas fa-layer-group"></i> Full Stack</div>
+                    <div class="chip" data-filter="mobile"><i class="fas fa-mobile-alt"></i> Mobile</div>
+                    <div class="chip" data-filter="api"><i class="fas fa-code"></i> API/Backend</div>
+                </div>
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- 1. FreshShop -->
+                <div class="project-card glass" data-category="fullstack web">
+                    <div class="project-badge">E-Commerce</div>
+                    <div class="video-container">
+                        <img src="assets/images/projects/image2.png" alt="FreshShop" class="video-thumbnail">
+                        <div class="play-overlay">
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title"><span>FreshShop</span><span class="project-date">2024</span></div>
+                        <p class="project-description">An e-commerce platform with product browsing, cart, secure
+                            checkout, search, authentication, and admin panel.</p>
+                        <div class="tech-stack"><span class="tech-tag">ASP.NET Core MVC</span><span class="tech-tag">SQL
+                                Server</span></div>
+                        <div class="project-links">
+                            <a href="https://github.com/MD-Aptech/FreshShoop.git" class="link-btn github"
+                                target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="link-btn demo disabled">Live (Soon)</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. E-Vaccination Booking -->
+                <div class="project-card glass" data-category="fullstack web">
+                    <div class="video-container">
+                        <img src="assets/images/projects/E-VaccineMangment.png" alt="E-Vaccination"
+                            class="video-thumbnail">
+                        <div class="play-overlay">
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title"><span>E-Vaccination Booking</span><span
+                                class="project-date">2024</span></div>
+                        <p class="project-description">Online vaccination slot booking system with user registration,
+                            login, and booking management.</p>
+                        <div class="tech-stack"><span class="tech-tag">Laravel</span><span class="tech-tag">MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/MD-DaniyalJavadia/E-VaccineMangment" class="link-btn github"
+                                target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="link-btn demo disabled">Live (Soon)</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Admin Dashboard PHP -->
+                <div class="project-card glass" data-category="fullstack web">
+                    <div class="video-container">
+                        <iframe src="https://player.vimeo.com/video/1149323552?autoplay=0&loop=1&background=1&muted=1"
+                            class="video-thumbnail" allowfullscreen>
+                        </iframe>
+
+                        <div class="play-overlay" data-video="https://player.vimeo.com/video/1149323552">
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                    </div>
+
+                    <div class="project-content">
+                        <div class="project-title">
+                            <span>Admin Dashboard</span>
+                            <span class="project-date">2024</span>
+                        </div>
+
+                        <p class="project-description">
+                            Dashboard to manage users, reports, and activities with full CRUD
+                            operations using PHP & MySQL.
+                        </p>
+
+                        <div class="tech-stack">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/MD-DaniyalJavadia/Admin-Dashboard-Php" class="link-btn github"
+                                target="_blank">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="#" class="link-btn demo disabled">Live (Soon)</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Student Portal Clone -->
+                <div class="project-card glass" data-category="fullstack web">
+                    <div class="video-container">
+                        <iframe src="https://player.vimeo.com/video/1146309292?autoplay=0&loop=1&background=1&muted=1"
+                            class="video-thumbnail" allowfullscreen></iframe>
+                        <div class="play-overlay" data-video="https://player.vimeo.com/video/1146309292">
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title"><span>Student Portal Clone</span><span
+                                class="project-date">2024</span></div>
+                        <p class="project-description">Laravel-based student portal for attendance, marks, profiles, and
+                            complaints with real-time updates.</p>
+                        <div class="tech-stack"><span class="tech-tag">Laravel</span><span class="tech-tag">MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/MD-Aptech/StudentPortalCloneAptech" class="link-btn github"
+                                target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="link-btn demo disabled">Live (Soon)</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. Netflix Clone -->
+                <div class="project-card glass" data-category="web">
+                    <div class="video-container">
+                        <img src="assets/images/projects/netflixclone.PNG" alt="Netflix Clone" class="video-thumbnail">
+                        <div class="play-overlay">
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title"><span>Netflix Clone</span><span class="project-date">2024</span>
+                        </div>
+                        <p class="project-description">Responsive Netflix-inspired layout with header, movie sections,
+                            and footer.</p>
+                        <div class="tech-stack"><span class="tech-tag">HTML</span><span class="tech-tag">CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="link-btn github disabled">Code</a>
+                            <a href="https://netflix-clone-theta-eight-90.vercel.app/" class="link-btn demo"
+                                target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. Portfolio -->
+                <div class="project-card glass" data-category="web">
+                    <div class="video-container">
+                        <img src="assets/images/projects/portfolio.PNG" alt="Portfolio" class="video-thumbnail">
+                        <div class="play-overlay">
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title"><span>Personal Portfolio</span><span class="project-date">2024</span>
+                        </div>
+                        <p class="project-description">Responsive portfolio showcasing skills and projects with clean
+                            interactive UI.</p>
+                        <div class="tech-stack"><span class="tech-tag">HTML</span><span class="tech-tag">CSS</span><span
+                                class="tech-tag">JavaScript</span></div>
+                        <div class="project-links">
+                            <a href="#" class="link-btn github disabled">Code</a>
+                            <a href="https://daniyal-portfolio-three.vercel.app/" class="link-btn demo"
+                                target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7. Nail Art -->
+                <div class="project-card glass" data-category="web">
+                    <div class="video-container">
+                        <iframe src="https://player.vimeo.com/video/1146310054?autoplay=0&loop=1&background=1&muted=1"
+                            class="video-thumbnail" allowfullscreen></iframe>
+                        <div class="play-overlay" data-video="https://player.vimeo.com/video/1146310054">
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title"><span>Nail Art Gallery</span><span class="project-date">2024</span>
+                        </div>
+                        <p class="project-description">Responsive gallery-style website displaying nail art designs.</p>
+                        <div class="tech-stack"><span class="tech-tag">HTML</span><span class="tech-tag">CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="link-btn github disabled">Code</a>
+                            <a href="https://nail-art-e-project.vercel.app/" class="link-btn demo" target="_blank"><i
+                                    class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 8. Simple Counter -->
+                <div class="project-card glass" data-category="web">
+                    <div class="video-container">
+                        <iframe src="https://player.vimeo.com/video/1146310123?autoplay=0&loop=1&background=1&muted=1"
+                            class="video-thumbnail" allowfullscreen></iframe>
+                        <div class="play-overlay" data-video="https://player.vimeo.com/video/1146310123">
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title"><span>Simple Counter</span><span class="project-date">2024</span>
+                        </div>
+                        <p class="project-description">Angular counter app with increment, decrement, and reset using
+                            two-way data binding.</p>
+                        <div class="tech-stack"><span class="tech-tag">Angular</span></div>
+                        <div class="project-links">
+                            <a href="#" class="link-btn github disabled">Code</a>
+                            <a href="https://counter-ebon-psi.vercel.app/" class="link-btn demo" target="_blank"><i
+                                    class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 9. Online Mobile Recharge -->
+                <div class="project-card glass" data-category="fullstack web">
+                    <div class="video-container">
+                        <img src="assets/images/projects/onlinemobilerechaege.PNG" alt="Mobile Recharge"
+                            class="video-thumbnail">
+                        <div class="play-overlay">
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title"><span>Online Mobile Recharge</span><span
+                                class="project-date">2024</span></div>
+                        <p class="project-description">Mobile recharge platform with plan browsing, secure transactions,
+                            and admin dashboard.</p>
+                        <div class="tech-stack"><span class="tech-tag">.NET Core MVC</span><span
+                                class="tech-tag">SQL</span><span class="tech-tag">JS</span></div>
+                        <div class="project-links">
+                            <a href="#" class="link-btn github disabled">Code</a>
+                            <a href="/" class="link-btn demo disabled">Live (Soon)</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 10. API with Swagger -->
+                <div class="project-card glass" data-category="api">
+                    <div class="video-container">
+                        <iframe src="https://player.vimeo.com/video/1146309894?autoplay=0&loop=1&background=1&muted=1"
+                            class="video-thumbnail" allowfullscreen></iframe>
+                        <div class="play-overlay" data-video="https://player.vimeo.com/video/1146309894">
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title"><span>REST API with Swagger</span><span
+                                class="project-date">2024</span></div>
+                        <p class="project-description">RESTful API with GET/POST operations, SQL Server integration,
+                            documented via Swagger.</p>
+                        <div class="tech-stack"><span class="tech-tag">ASP.NET Core</span><span
+                                class="tech-tag">Swagger</span><span class="tech-tag">SQL Server</span></div>
+                        <div class="project-links">
+                            <a href="https://github.com/MD-DaniyalJavadia/WebApi" class="link-btn github"
+                                target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="link-btn demo disabled">Demo (Soon)</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 11. Student Management API -->
+                <div class="project-card glass" data-category="api">
+                    <div class="video-container">
+                        <iframe src="https://player.vimeo.com/video/1146309810?autoplay=0&loop=1&background=1&muted=1"
+                            class="video-thumbnail" allowfullscreen></iframe>
+                        <div class="play-overlay" data-video="https://player.vimeo.com/video/1146309810">
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title"><span>Student Management API</span><span
+                                class="project-date">2024</span></div>
+                        <p class="project-description">Backend API for CRUD operations on student records using Node.js
+                            and MongoDB.</p>
+                        <div class="tech-stack"><span class="tech-tag">Node.js</span><span
+                                class="tech-tag">Express</span><span class="tech-tag">MongoDB</span></div>
+                        <div class="project-links">
+                            <a href="https://github.com/MD-DaniyalJavadia/Mongodb_Connect_Nodejs"
+                                class="link-btn github" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="link-btn demo disabled">Demo (Soon)</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 12. Green Living Hub -->
+                <div class="project-card glass" data-category="mobile">
+                    <div class="project-badge">Mobile</div>
+                    <div class="video-container">
+                        <img src="assets/images/projects/flutter.png" alt="Green Living Hub" class="video-thumbnail">
+                        <div class="play-overlay">
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title"><span>Green Living Hub</span><span class="project-date">2024</span>
+                        </div>
+                        <p class="project-description">Sustainable lifestyle app with carbon calculator, events,
+                            community, and Firebase auth.</p>
+                        <div class="tech-stack"><span class="tech-tag">Flutter</span><span
+                                class="tech-tag">Dart</span><span class="tech-tag">Firebase</span></div>
+                        <div class="project-links">
+                            <a href="https://github.com/MD-DaniyalJavadia/GreenLivingHubApp" class="link-btn github"
+                                target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="link-btn demo disabled">APK (Soon)</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 13. Guarder Service -->
+                <div class="project-card glass" data-category="web">
+                    <div class="video-container">
+                        <img src="assets/images/Guarder.png" alt="Guarder" class="video-thumbnail">
+                        <div class="play-overlay">
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title"><span>Guarder Security Service</span><span
+                                class="project-date">2024</span></div>
+                        <p class="project-description">Static website for security service provider with services,
+                            contact form, built with Bootstrap 5.</p>
+                        <div class="tech-stack"><span class="tech-tag">HTML</span><span class="tech-tag">CSS</span><span
+                                class="tech-tag">Bootstrap 5</span></div>
+                        <div class="project-links">
+                            <a href="#" class="link-btn github disabled">Code</a>
+                            <a href="https://guarder-ebon.vercel.app/" class="link-btn demo" target="_blank"><i
+                                    class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 14. Movie API React App -->
+                <div class="project-card glass" data-category="web">
+                    <div class="video-container">
+                        <iframe src="https://player.vimeo.com/video/1146310000?autoplay=0&loop=1&background=1&muted=1"
+                            class="video-thumbnail" allowfullscreen></iframe>
+                        <div class="play-overlay" data-video="https://player.vimeo.com/video/1146310000">
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title"><span>Movie API React App</span><span
+                                class="project-date">2024</span></div>
+                        <p class="project-description">React + Vite app fetching movies with search, dark/light mode
+                            toggle.</p>
+                        <div class="tech-stack"><span class="tech-tag">React</span><span
+                                class="tech-tag">Vite</span><span class="tech-tag">Movie API</span></div>
+                        <div class="project-links">
+                            <a href="#" class="link-btn github disabled">Code</a>
+                            <a href="http://movie-api-five-beige.vercel.app/" class="link-btn demo" target="_blank"><i
+                                    class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 15. API Token Generation -->
+                <div class="project-card glass" data-category="api fullstack">
+                    <div class="video-container">
+                        <iframe src="https://player.vimeo.com/video/1146309469?autoplay=0&loop=1&background=1&muted=1"
+                            class="video-thumbnail" allowfullscreen></iframe>
+                        <div class="play-overlay" data-video="https://player.vimeo.com/video/1146309469">
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title"><span>API Token Auth System</span><span
+                                class="project-date">2024</span></div>
+                        <p class="project-description">Secure token-based authentication with module-specific,
+                            time-sensitive tokens stored in SQL Server.</p>
+                        <div class="tech-stack"><span class="tech-tag">ASP.NET Core</span><span class="tech-tag">SQL
+                                Server</span><span class="tech-tag">JWT</span></div>
+                        <div class="project-links">
+                            <a href="#" class="link-btn github disabled">Private</a>
+                            <a href="#" class="link-btn demo disabled">Demo (Restricted)</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 16. Mern Authentication System -->
+                <div class="project-card glass" data-category="fullstack">
+                    <div class="video-container">
+                        <iframe src="https://player.vimeo.com/video/1149330653?autoplay=0&loop=1&background=1&muted=1"
+                            class="video-thumbnail" allowfullscreen></iframe>
+                        <div class="play-overlay" data-video="https://player.vimeo.com/video/1149330653">
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title"><span>MERN Authentication System</span><span
+                                class="project-date">2024</span></div>
+                        <p class="project-description">A MERN stack based authentication system featuring user
+                            registration, login, and logout. JWT tokens are generated on login for secure
+                            authentication, with complete frontend and backend integration.</p>
+                        <div class="tech-stack"><span class="tech-tag">MongoDB</span><span
+                                class="tech-tag">Express</span><span class="tech-tag">React</span><span
+                                class="tech-tag">Node.js</span></div>
+                        <div class="project-links">
+                            <a href="#" class="link-btn github disabled">Coming Soon</a>
+                            <a href="#" class="link-btn demo disabled">Live (Soon)</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- 17. Hexa Shop -->
+                <div class="project-card glass" data-category="fullstack">
+                    <div class="project-badge">In Progress</div>
+                    <div class="video-container">
+                        <img src="assets/images/projects/Hexashop.png" alt="MERN Fitness Tracker"
+                            class="video-thumbnail">
+                        <div class="play-overlay">
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title"><span>Hexa Shop</span><span class="project-date">2025</span></div>
+                        <p class="project-description">Hexa Shop offers trendy clothing for men, women, and kids. Browse
+                            our collection online for stylish outfits, accessories, and more.</p>
+                        <div class="tech-stack"><span class="tech-tag">MongoDB</span><span
+                                class="tech-tag">Express</span><span class="tech-tag">React</span><span
+                                class="tech-tag">Node.js</span></div>
+                        <div class="project-links">
+                            <a href="#" class="link-btn github disabled">Coming Soon</a>
+                            <a href="#" class="link-btn demo disabled">Live (Soon)</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 18. MERN Fitness Tracker -->
+                <div class="project-card glass" data-category="fullstack">
+                    <div class="project-badge">In Progress</div>
+                    <div class="video-container">
+                        <img src="assets/images/projects/mernfitnesstracker.png" alt="MERN Fitness Tracker"
+                            class="video-thumbnail">
+                        <div class="play-overlay">
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title"><span>MERN Fitness Tracker</span><span
+                                class="project-date">2025</span></div>
+                        <p class="project-description">Full-stack fitness tracking app with workout logging and goal
+                            management using MERN stack.</p>
+                        <div class="tech-stack"><span class="tech-tag">MongoDB</span><span
+                                class="tech-tag">Express</span><span class="tech-tag">React</span><span
+                                class="tech-tag">Node.js</span></div>
+                        <div class="project-links">
+                            <a href="#" class="link-btn github disabled">Coming Soon</a>
+                            <a href="#" class="link-btn demo disabled">Live (Soon)</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <div class="modal" id="videoModal">
+        <div class="modal-content">
+            <div class="close-modal" id="closeModal"><i class="fas fa-times"></i></div>
+            <div class="modal-video-container">
+                <iframe class="modal-video" id="modalVideo" src="" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Daniyal Javadia</h3>
+                    <p>Full Stack Developer | Turning ideas into reality with clean, scalable code.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/MD-DaniyalJavadia/" target="_blank" class="social-icon"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/daniyal-javadia-a8b941379/" target="_blank"
+                            class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <div class="footer-links">
+                        <a href="#projects" class="footer-link"><i class="fas fa-arrow-right"></i> Projects</a>
+                        <a href="mailto:your-email@gmail.com" class="footer-link"><i class="fas fa-arrow-right"></i>
+                            Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>
+                    &copy; <span id="year"></span> Daniyal Javadia.
+                    Made with <i class="fas fa-heart" style="color:#ff4757;"></i> and passion.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
